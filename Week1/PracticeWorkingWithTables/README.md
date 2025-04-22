@@ -11,7 +11,7 @@ Bu proje, temel HTML ve CSS kullanılarak hazırlanmış bir sınıf tablosu uyg
   - Soyadı
   - Notu
   - Doğum Tarihi
-- **Öğrenci Sayısı:** 
+
 
 ## Kullanılan Teknolojiler
 
