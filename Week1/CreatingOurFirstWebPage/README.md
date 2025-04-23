@@ -1,6 +1,6 @@
 # Furkan Cengiz - Özgeçmiş Web Sayfası
 
-Bu proje, Furkan Cengiz’in kişisel özgeçmişini sunan bir HTML5 web sayfasıdır. Semantik HTML (`<main>`, `<section>`) ve CSS kullanılarak oluşturulmuş, düzenli ve modern bir tasarıma sahiptir.
+Bu proje,  kişisel özgeçmişini sunan bir HTML5 web sayfasıdır. Semantik HTML (`<main>`, `<section>`) ve CSS kullanılarak oluşturulmuş, düzenli ve modern bir tasarıma sahiptir.
 
 ## Özellikler
 
