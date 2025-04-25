@@ -25,4 +25,4 @@ Bu web sitesi statik HTML dosyalarından oluşur. Herhangi bir modern web taray�
 
 ## Lisans
 
-Bu proje açık kaynaklıdır ve MIT lisansı altında yayınlanmıştır. (İsteğe bağlı olarak bir lisans bilgisi ekleyebilirsiniz.)
+Bu proje açık kaynaklıdır ve MIT lisansı altında yayınlanmıştır. 
