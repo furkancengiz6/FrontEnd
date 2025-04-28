@@ -1,0 +1,117 @@
+/*Genel Stil*/
+
+body{
+    front-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin:0;
+    padding:0;
+    color:#666;
+}
+
+h2,h1,h3{
+    color:#333;
+}
+
+/*Header*/
+
+header{
+    backgrount-color:#333;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin : 0;
+    front-size: 2.5em;
+}
+
+/*Menü*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0 ;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    front-weight:bold;
+
+}
+nav ul li a:hover{
+    color : #ccc;
+
+}
+
+/*Main,Section*/
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+ section h2{
+    text-align: center;
+    front-size: 1.8em;
+
+ }
+
+ /*Blog Kartları*/
+ article{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+
+ article img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+ }
+
+ article h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Blog Gönderisi Sayfası için Ek Stiller */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+article h2 {
+    font-size: 2em;
+    text-align: center;
+}
