@@ -1,6 +1,7 @@
 # 🌲 Robin Hobb Tribute Website / Robin Hobb Anma Web Sitesi
 
-![screencapture-file-C-Users-PAVILION-Desktop-tribute-website-index-html-2025-04-30-14_08_07](https://github.com/user-attachments/assets/abd039f3-7620-4bf4-9a6e-95c5dad62228)
+![screencapture-file-C-Users-PAVILION-Desktop-tribute-website-index-html-2025-04-30-14_12_37](https://github.com/user-attachments/assets/7847f064-30de-4186-ba76-19a15d2a96fb)
+
 
 This project is a tribute website dedicated to **Robin Hobb**, the acclaimed author of the *Farseer Trilogy*. The site showcases her life, works, and contributions to fantasy literature, styled in a theme inspired by the forests and magic of her world.  
 Bu proje, *Farseer Üçlemesi* ile tanınan ünlü yazar **Robin Hobb**'a adanmış bir anma web sitesidir. Ormanlar ve büyü temalı tasarımıyla yazarın hayatı, eserleri ve fantastik edebiyata katkıları tanıtılmaktadır.
