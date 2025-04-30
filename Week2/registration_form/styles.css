@@ -1,0 +1,132 @@
+/* Genel sayfa düzeni */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8f484; /* Açık sarı arka plan */
+}
+
+/* Başlık */
+#title {
+    text-align: center;
+    color: #68427c; /* Koyu mor */
+}
+
+/* Açıklama */
+#description {
+    text-align: center;
+    color: #b8a1c4; /* Açık mor */
+    margin-bottom: 20px;
+}
+
+/* Form düzeni */
+#survey-form {
+    background-color: rgb(142, 108, 156); /* Orta mor */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiketler */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fdffa9; /* Parlak sarı */
+}
+
+/* Giriş alanları kapsayıcısı */
+.input-container {
+    margin-bottom: 15px;
+}
+
+/* Simge ve giriş alanı kapsayıcısı */
+.icon-input {
+    position: relative;
+}
+
+/* Simge stili */
+.icon-input i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b8a1c4; /* Açık mor, formun temasıyla uyumlu */
+}
+
+/* Giriş alanları (input, select, textarea) */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 8px 8px 35px; /* Sol tarafta simge için boşluk */
+    margin-top: 5px;
+    border: 1px solid #230251; /* Koyu mor kenarlık */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff; /* Beyaz arka plan, kontrast için */
+}
+
+/* Giriş alanlarına odaklanıldığında */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #fdffa9; /* Sarı kenarlık, odaklanıldığında */
+    outline: none;
+}
+
+/* Odaklanıldığında simge rengi */
+input:focus + i,
+select:focus + i,
+textarea:focus + i {
+    color: #fdffa9; /* Sarı, odaklanıldığında */
+}
+
+/* Radyo düğmeleri ve onay kutuları */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: #68427c; /* Mor, tarayıcı uyumluluğu için */
+}
+
+/* Gönder butonu */
+#submit {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Sağda simge için boşluk */
+    margin-top: 20px;
+    background-color: #68427c; /* Koyu mor */
+    color: #fdffa9; /* Sarı metin */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+/* Gönder butonu ikonu */
+#submit + i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fdffa9; /* Sarı ikon */
+}
+
+/* Gönder butonuna hover efekti */
+#submit:hover {
+    background-color: #5a3670; /* Biraz daha koyu mor */
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    #survey-form {
+        padding: 15px;
+    }
+}
