@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <h1 id="title">Kayıt Formu</h1>
+    <p id="description">Lütfen aşağıdaki formu doldurarak bilgilerinizi paylaşın.</p>
+    <form id="survey-form">
+        <!-- İsim Alanı -->
+        <div class="input-container">
+            <label id="name-label" for="name">Adınız:</label>
+            <div class="icon-input">
+                <i class="fas fa-user"></i>
+                <input id="name" type="text" placeholder="Adınızı giriniz" required>
+            </div>
+        </div>
+        <!-- E-posta Alanı -->
+        <div class="input-container">
+            <label id="email-label" for="email">E-posta:</label>
+            <div class="icon-input">
+                <i class="fas fa-envelope"></i>
+                <input id="email" type="email" placeholder="ornek@eposta.com" required>
+            </div>
+        </div>
+        <!-- Yaş Alanı -->
+        <div class="input-container">
+            <label id="number-label" for="number">Yaş:</label>
+            <div class="icon-input">
+                <i class="fas fa-calendar"></i>
+                <input id="number" type="number" placeholder="Yaşınızı giriniz" min="1" max="120" required>
+            </div>
+        </div>
+        <!-- Cinsiyet Alanı -->
+        <div class="input-container">
+            <label for="dropdown">Cinsiyet:</label>
+            <div class="icon-input">
+                <i class="fas fa-venus-mars"></i>
+                <select id="dropdown" required>
+                    <option value="">Seçiniz</option>
+                    <option value="erkek">Erkek</option>
+                    <option value="kadin">Kadın</option>
+                </select>
+            </div>
+        </div>
+        <!-- Eğitim Durumu -->
+        <p>Eğitim Durumu:</p>
+        <label><input type="radio" name="education" value="lisans" required> Lisans</label>
+        <label><input type="radio" name="education" value="yuksek-lisans"> Yüksek Lisans</label>
+        <!-- İlgi Alanları -->
+        <p>İlgi Alanları:</p>
+        <label><input type="checkbox" value="teknoloji"> Teknoloji</label>
+        <label><input type="checkbox" value="spor"> Spor</label>
+        <!-- Ek Yorumlar -->
+        <div class="input-container">
+            <label for="comments">Ek Yorumlar:</label>
+            <div class="icon-input">
+                <i class="fas fa-comment"></i>
+                <textarea id="comments" placeholder="Yorumlarınızı buraya yazınız"></textarea>
+            </div>
+        </div>
+        <!-- Gönder Butonu -->
+        <div class="input-container">
+            <input id="submit" type="submit" value="Gönder">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+    </form>
+</body>
+</html>
