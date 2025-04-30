@@ -1,0 +1,162 @@
+/* Genel Stil */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background-color: #3C3F41; /* Koyu gri arka plan */
+    color: #D3D3D3; /* Açık gri metin */
+}
+
+/* Header */
+header {
+    background-color: #2E4A3D; /* Koyu yeşil */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #6B7F47; /* Açık yeşil */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #D3D3D3; /* Açık gri hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4A3728; /* Koyu kahverengi */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    color: #6B7F47; /* Açık yeşil */
+    font-size: 3em;
+    margin: 0 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero blockquote {
+    font-style: italic;
+    color: #D3D3D3; /* Açık gri */
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* Biography Section */
+.biography {
+    background-color: #2E4A3D; /* Koyu yeşil */
+    padding: 40px 20px;
+}
+
+.biography h2 {
+    color: #6B7F47; /* Açık yeşil */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bio-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bio-content img {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bio-text p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Books Section */
+.books {
+    background-color: #3C3F41; /* Koyu gri */
+    padding: 40px 20px;
+}
+
+.books h2 {
+    color: #6B7F47; /* Açık yeşil */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.books ul {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.books ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.books ul li strong {
+    color: #6B7F47; /* Açık yeşil */
+}
+
+/* Footer */
+footer {
+    background-color: #2E4A3D; /* Koyu yeşil */
+    color: #D3D3D3; /* Açık gri */
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 600px) {
+    .hero {
+        padding: 40px 10px;
+    }
+    .hero h1 {
+        font-size: 2em;
+    }
+    .bio-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .bio-content img {
+        margin-bottom: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
