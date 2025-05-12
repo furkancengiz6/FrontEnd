@@ -22,7 +22,7 @@ Bu proje, **Tailwind CSS** kullanılarak geliştirilmiş responsive (mobil uyuml
 
 Ana sayfa ve içerik bölümleri aşağıdaki gibidir:
 
-![Uploading screencapture-file-C-Users-PAVILION-Desktop-week3-src-index-html-2025-05-12-18_35_34.png…]()
+![screencapture-file-C-Users-PAVILION-Desktop-week3-src-index-html-2025-05-12-18_35_34](https://github.com/user-attachments/assets/4c34452d-3864-4a1a-b9c8-fb7f9b817c18)
 
 
 ## 🚀 Projeyi Çalıştırmak
