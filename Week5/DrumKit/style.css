@@ -1,0 +1,83 @@
+/* Genel sayfa stili */
+body {
+  background-color: black;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column; /* Butonları ve görüntüyü dikey hizala */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Ortadaki görseli konumlandırmak için gerekli */
+  overflow: hidden;
+}
+
+/* Ortadaki görsel */
+.center-image {
+  position: absolute;
+  top: 40px; /* Yukarıda tutmak için, istersen top: 50% yap */
+  left: 50%;
+  transform: translateX(-50%); /* Yatayda ortala */
+  max-width: 500px; /* Görüntü boyutunu ayarla */
+  max-height: 500px;
+  filter: grayscale(100%) brightness(1000%) invert(100%); /* Beyaz görünüm */
+  z-index: 2; /* Görsel butonların üstünde */
+  pointer-events: none; /* Tıklama olaylarını engelle */
+  opacity: 1;
+}
+
+/* Drum tuşlarının kapsayıcısı */
+.keys {
+  display: flex;
+  gap: 15px;
+  z-index: 1; /* Görselin altında kalsın */
+  margin-top: 550px; /* Görüntünün altına yerleştir, ihtiyaca göre ayarla */
+}
+
+/* Her bir tuş */
+.key {
+  border: none;
+  font-size: 24px;
+  padding: 20px 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ses ismini göstermek için */
+.key small {
+  display: block;
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+/* Aktif hale geldiğinde */
+.key.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffc600;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffc600;
+}
+
+/* Özel sesler için renkli gölgeler */
+.key.playing[data-key="65"] { /* A - clap */
+  box-shadow: 0 0 15px #ffc600;
+}
+.key.playing[data-key="83"] { /* S - hihat */
+  box-shadow: 0 0 15px #00ffff;
+}
+.key.playing[data-key="68"] { /* D - kick */
+  box-shadow: 0 0 15px #ff4d4d;
+}
